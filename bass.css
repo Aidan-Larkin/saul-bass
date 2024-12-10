@@ -26,7 +26,6 @@ body, html {
 
 /* The hero image */
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: url(/images/banner-image.png);
   
 
@@ -270,15 +269,11 @@ figure.quote p{
             }
 
             .colour-block{
-                padding:3rem 0 3rem 0;
+                padding:5px 0px 5px 0px;
                 background-color:#72E0FB;
                 background-size: cover;
-                margin-bottom:2.5rem;
+                margin-bottom: 15px;
                 }
-    
-                main{
-                    margin-bottom: 2.5rem;
-                    }
 
 /* media queries */
 @media only screen and (max-width:1068px) {
