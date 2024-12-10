@@ -1,0 +1,331 @@
+/* Font chosen from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Mina:wght@400;700&display=swap');
+
+/* css reset */
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+
+
+
+
+
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url(/images/banner-image.png);
+  background-color: #FB7272;
+  
+
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: #292929;
+}
+
+  
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #292929;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-size: 32px;
+    font-family: "Mina", Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #FB7272;
+    color: #2A2A2A;
+  }
+  
+
+
+
+
+
+
+
+/*css grids*/
+.grid{
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+}
+/* CSS grids column widths*/
+.grid-col-third{
+    flex-basis: 33.33%;
+    margin-top: 2.5rem;
+}
+.grid-col-twothirds{
+    flex-basis: 66.66;
+}
+
+
+
+/* default styles for whole page */
+body {
+    color:#101010;
+    border-color:#101010;
+    background-color: #ffffff;
+}
+
+/* content container to centre content */
+.container {
+    max-width: 1020px;
+    margin: 0 auto 0 auto;
+}
+
+/* Default styling for headings */
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Mina", Georgia, 'Times New Roman', Times, serif;
+    Line-height: 1.1;
+    font-weight: 700;
+}
+
+/*specific styles*/
+h1 {
+    font-size: 4.25rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    padding: 5px;
+}
+
+h2 {
+    font-family: "Mina", Georgia, 'Times New Roman', Times, serif;
+    font-size: 72px;
+    margin-bottom: 0.5rem;
+    padding: 5px;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+/*Paragraphs*/
+p{
+    font-family: "Mina", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    font-style: normal;
+}
+
+#bschulz {
+    text-align: left;
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    color: #292929;
+  }
+
+
+
+/*large Paragraphs*/
+p.large {
+    font-family:"Mina", Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-style: italic;
+}
+
+/*lists*/
+ul {
+    list-style: disc outside;
+    margin-bottom: 1.5rem;
+    margin-left: 1.25rem;
+    }
+    ul li {
+    font-family: "Mina", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.125rem;
+    margin-bottom: .5rem;
+    }
+
+    /* hyperlinks */
+a {
+    font-family:inherit;
+    font-size:inherit;
+    line-height: inherit;
+    color: #006bc3;
+    }
+    /*Hyperlinks - states*/
+    a:hover {
+        color:#00447B;
+        }
+
+        /* images*/
+img {
+    max-width: 510px;
+    width: 400px;
+    height:auto;
+    border-style: none ;
+    margin-bottom: 2rem;
+    }
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 10px;
+  }
+
+    
+    /*blockquote*/
+figure.quote {
+border-left: 8px solid #74FBB8;
+padding:1.5rem 0 1.5rem 2rem;
+margin-bottom: 2rem;
+}
+
+figure.quote p{
+    margin-bottom:0;
+    }
+    figure.quote blockquote {
+    margin-bottom:.5rem;
+    }
+    figure.quote figcaption p{
+    font-weight:700;
+    }
+
+    footer {
+        padding: 1.5rem 0 1.5rem 0;
+        margin-top:2rem;
+        border-top:1px solid #101010;
+        }
+
+        header{
+            border-bottom:2px solid #101010;
+            padding:1.5rem 0;
+            }
+            header p.logo{
+            font-weight: 700;
+            margin-bottom:0;
+            font-size:1.75rem;
+            line-height: 1.1;
+            }
+
+            .colour-block{
+                padding:3rem 0 3rem 0;
+                background-color:#74FBB8;
+                margin-bottom:2.5rem;
+                }
+    
+                main{
+                    margin-bottom: 2.5rem;
+                    }
+
+/* media queries */
+@media only screen and (max-width:1068px) {
+    .container {
+    margin: 0 24px 0 24px;
+    }
+    }
+    @media only screen and (max-width: 768px) {
+        .grid { flex-direction: column;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+    .container {
+    margin: 0 16px 0 16px;
+    }
+    h1{
+        font-size: 2.25rem;
+        margin-bottom: 1rem;
+        }
+        h2{
+        font-size: 1.875rem; 
+        }
+        h3{
+        font-size: 1.5rem;
+        }
+        h4{
+        font-size: 1.25rem;
+        }
+        p.large {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            }
+            p{
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            }
+        
+        
+        ul {
+            margin-bottom: 1rem;
+            }
+            ul li {
+            font-size: 1rem;
+            margin-bottom: .5rem;
+            } 
+            
+            header p.logo{
+                font-size:1.25rem;
+                }
+                .colour-block{
+                padding:2rem 0;
+                margin-bottom:2rem;
+                }
+}
