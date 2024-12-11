@@ -93,6 +93,7 @@ html {
     display: flex;
     gap: 24px;
     flex-direction: row;
+    margin-top: 2.5rem;
     flex-basis: 100%;
 }
 
