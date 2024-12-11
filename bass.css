@@ -140,16 +140,18 @@ h1 {
     font-family: "Vampiro One", Arial, Helvetica, sans-serif;
     color: #292929;
     font-size: 120px;
-    margin-bottom: 2rem;
     font-weight: 900;
     padding: 5px;
+    margin-top: 100px;
+    margin-bottom: 2.5rem;
 }
 
 h2 {
     font-family: "Mina", Georgia, 'Times New Roman', Times, serif;
     color: #292929;
     font-size: 72px;
-    margin-bottom: 0.5rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
     padding: 5px;
 }
 
@@ -157,7 +159,8 @@ h3 {
     font-family: "Mina", Georgia, 'Times New Roman', Times, serif;
     color: #292929;
     font-size: 2rem;
-    margin-bottom: 0.5rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
 h4 {
@@ -173,8 +176,9 @@ p {
     font-weight: 400;
     line-height: 1.5rem;
     font-size: 1.125rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 50px;
     font-style: normal;
+    text-align: justify;
 
 }
 
