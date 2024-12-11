@@ -7,7 +7,7 @@
 
 
 /* css reset */
-*{
+* {
     padding: 0;
     margin: 0;
     font-size: 100%;
@@ -20,45 +20,46 @@
 
 
 
-body, html {
+body,
+html {
     height: 100%;
 }
 
 /* The hero image */
 .hero-image {
-  background-image: url(/images/banner-image.png);
-  
+    background-image: url(/images/banner-image.png);
+    background-color: #FB7272;
 
 
-  /* Set a specific height */
-  height: 50%;
+    /* Set a specific height */
+    height: 50%;
 
-  /* Position and center the image to scale nicely on all screens */
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 /* Place text in the middle of the image */
 .hero-text {
-  text-align: left;
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  color: #292929;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: #292929;
 }
 
-  
+
 
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #292929;
     overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -66,14 +67,14 @@ body, html {
     text-decoration: none;
     font-size: 32px;
     font-family: "Mina", Georgia, 'Times New Roman', Times, serif;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
     background-color: #FB7272;
     color: #2A2A2A;
-  }
-  
+}
+
 
 
 
@@ -82,17 +83,19 @@ body, html {
 
 
 /*css grids*/
-.grid{
+.grid {
     display: flex;
     gap: 24px;
     flex-direction: row;
 }
+
 /* CSS grids column widths*/
-.grid-col-third{
+.grid-col-third {
     flex-basis: 33.33%;
     margin-top: 2.5rem;
 }
-.grid-col-twothirds{
+
+.grid-col-twothirds {
     flex-basis: 66.66;
 }
 
@@ -100,8 +103,8 @@ body, html {
 
 /* default styles for whole page */
 body {
-    color:#101010;
-    border-color:#101010;
+    color: #101010;
+    border-color: #101010;
     background-color: #ffffff;
 }
 
@@ -112,7 +115,12 @@ body {
 }
 
 /* Default styling for headings */
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Mina", Georgia, 'Times New Roman', Times, serif;
     Line-height: 1.1;
     font-weight: 700;
@@ -144,14 +152,14 @@ h4 {
 }
 
 /*Paragraphs*/
-p{
+p {
     font-family: "Mina", Arial, Helvetica, sans-serif;
     font-weight: 400;
     line-height: 1.5rem;
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
     font-style: normal;
-    
+
 }
 
 #bschulz {
@@ -160,13 +168,13 @@ p{
     top: 75%;
     left: 0%;
     color: #292929;
-  }
+}
 
 
 
 /*large Paragraphs*/
 p.large {
-    font-family:"Mina", Georgia, 'Times New Roman', Times, serif;
+    font-family: "Mina", Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     line-height: 1.5rem;
     font-size: 1.5rem;
@@ -180,151 +188,168 @@ ul {
     list-style: disc outside;
     margin-bottom: 1.5rem;
     margin-left: 1.25rem;
-    }
-    ul li {
+}
+
+ul li {
     font-family: "Mina", Arial, Helvetica, sans-serif;
     font-weight: 400;
     line-height: 1.5;
     font-size: 1.125rem;
     margin-bottom: .5rem;
-    }
+}
 
-    /* hyperlinks */
+/* hyperlinks */
 a {
-    font-family:inherit;
-    font-size:inherit;
+    font-family: inherit;
+    font-size: inherit;
     line-height: inherit;
     color: #006bc3;
-    }
-    /*Hyperlinks - states*/
-    a:hover {
-        color:#00447B;
-        }
+}
 
-        /* images*/
+/*Hyperlinks - states*/
+a:hover {
+    color: #00447B;
+}
+
+/* images*/
 img {
     max-width: 510px;
     width: 400px;
-    height:auto;
-    border-style: none ;
+    height: auto;
+    border-style: none;
     margin-bottom: 2rem;
-    }
+}
+
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
     float: left;
     width: 33.33%;
     padding: 5px;
-  }
-  
-  /* Clear floats after image containers */
-  .row::after {
+}
+
+/* Clear floats after image containers */
+.row::after {
     content: "";
     clear: both;
     display: table;
-  }
-
-  .row {
-    display: flex;
-  }
-  
-  .column {
-    flex: 33.33%;
-    padding: 10px;
-  }
-
-    
-    /*blockquote*/
-figure.quote {
-border-left: 8px solid #FB7272;
-padding:1.5rem 0 1.5rem 2rem;
-margin-bottom: 2rem;
 }
 
-figure.quote p{
-    margin-bottom:0;
-    }
-    figure.quote blockquote {
-    margin-bottom:.5rem;
-    }
-    figure.quote figcaption p{
-    font-weight:700;
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 10px;
+}
+
+
+/*blockquote*/
+figure.quote {
+    border-left: 8px solid #FB7272;
+    padding: 1.5rem 0 1.5rem 2rem;
+    margin-bottom: 2rem;
+}
+
+figure.quote p {
+    margin-bottom: 0;
+}
+
+figure.quote blockquote {
+    margin-bottom: .5rem;
+}
+
+figure.quote figcaption p {
+    font-weight: 700;
     font-family: "Vampiro One", Arial, Helvetica, sans-serif;
-    }
+}
 
-    footer {
-        padding: 1.5rem 0 1.5rem 0;
-        margin-top:2rem;
-        border-top:1px solid #101010;
-        }
+footer {
+    padding: 1.5rem 0 1.5rem 0;
+    margin-top: 2rem;
+    border-top: 1px solid #101010;
+}
 
-        header{
-            border-bottom:2px solid #101010;
-            padding:1.5rem 0;
-            }
-            header p.logo{
-            font-weight: 700;
-            margin-bottom:0;
-            font-size:1.75rem;
-            line-height: 1.1;
-            }
+header {
+    border-bottom: 2px solid #101010;
+    padding: 1.5rem 0;
+}
 
-            .colour-block{
-                padding:5px 0px 5px 0px;
-                background-color:#72E0FB;
-                background-size: cover;
-                margin-bottom: 15px;
-                }
+header p.logo {
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 1.75rem;
+    line-height: 1.1;
+}
+
+.colour-block {
+    padding: 5px 0px 5px 0px;
+    background-color: #72E0FB;
+    background-size: cover;
+    margin-bottom: 15px;
+}
 
 /* media queries */
 @media only screen and (max-width:1068px) {
     .container {
-    margin: 0 24px 0 24px;
+        margin: 0 24px 0 24px;
     }
+}
+
+@media only screen and (max-width: 768px) {
+    .grid {
+        flex-direction: column;
     }
-    @media only screen and (max-width: 768px) {
-        .grid { flex-direction: column;
-        }
-    }
-    @media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 600px) {
     .container {
-    margin: 0 16px 0 16px;
+        margin: 0 16px 0 16px;
     }
-    h1{
+
+    h1 {
         font-size: 2.25rem;
         margin-bottom: 1rem;
-        }
-        h2{
-        font-size: 1.875rem; 
-        }
-        h3{
+    }
+
+    h2 {
+        font-size: 1.875rem;
+    }
+
+    h3 {
         font-size: 1.5rem;
-        }
-        h4{
+    }
+
+    h4 {
         font-size: 1.25rem;
-        }
-        p.large {
-            font-size: 1.25rem;
-            margin-bottom: 2rem;
-            }
-            p{
-            font-size: 1rem;
-            margin-bottom: 1rem;
-            }
-        
-        
-        ul {
-            margin-bottom: 1rem;
-            }
-            ul li {
-            font-size: 1rem;
-            margin-bottom: .5rem;
-            } 
-            
-            header p.logo{
-                font-size:1.25rem;
-                }
-                .colour-block{
-                padding:2rem 0;
-                margin-bottom:2rem;
-                }
+    }
+
+    p.large {
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+
+    ul {
+        margin-bottom: 1rem;
+    }
+
+    ul li {
+        font-size: 1rem;
+        margin-bottom: .5rem;
+    }
+
+    header p.logo {
+        font-size: 1.25rem;
+    }
+
+    .colour-block {
+        padding: 2rem 0;
+        margin-bottom: 2rem;
+    }
 }
