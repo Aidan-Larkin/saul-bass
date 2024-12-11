@@ -126,6 +126,7 @@ html {
 .container {
     max-width: 1020px;
     margin: 0 auto 0 auto;
+    padding: 10 auto 10 auto;
 }
 
 /* Default styling for headings */
@@ -139,6 +140,7 @@ h6 {
     Line-height: 1.1;
     font-weight: 700;
     color: #292929;
+    padding: 10 auto 10 auto;
 }
 
 /*specific styles*/
