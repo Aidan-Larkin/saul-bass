@@ -78,7 +78,7 @@ html {
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #FB7272;
-    color: #2A2A2A;
+    color: #292929;
 }
 
 
@@ -93,6 +93,7 @@ html {
     display: flex;
     gap: 24px;
     flex-direction: row;
+    flex-basis: 100%;
 }
 
 /* CSS grids column widths*/
@@ -109,8 +110,8 @@ html {
 
 /* default styles for whole page */
 .body {
-    color: #101010;
-    border-color: #101010;
+    color: #292929;
+    border-color: #292929;
     background-color: #ffffff;
 }
 
@@ -130,11 +131,14 @@ h6 {
     font-family: "Mina", Georgia, 'Times New Roman', Times, serif;
     Line-height: 1.1;
     font-weight: 700;
+    color:#292929;
 }
 
 /*specific styles*/
 h1 {
-    font-size: 4.25rem;
+    font-family: "Vampiro One", Arial, Helvetica, sans-serif;
+    color:#292929;
+    font-size: 120px;
     margin-bottom: 2rem;
     font-weight: 900;
     padding: 5px;
@@ -142,17 +146,20 @@ h1 {
 
 h2 {
     font-family: "Mina", Georgia, 'Times New Roman', Times, serif;
+    color:#292929;
     font-size: 72px;
     margin-bottom: 0.5rem;
     padding: 5px;
 }
 
 h3 {
+    color:#292929;
     font-size: 2rem;
     margin-bottom: 0.5rem;
 }
 
 h4 {
+    color:#292929;
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
 }
@@ -160,6 +167,7 @@ h4 {
 /*Paragraphs*/
 p {
     font-family: "Mina", Arial, Helvetica, sans-serif;
+    color:#292929;
     font-weight: 400;
     line-height: 1.5rem;
     font-size: 1.125rem;
@@ -173,6 +181,7 @@ p {
 /*large Paragraphs*/
 p.large {
     font-family: "Mina", Georgia, 'Times New Roman', Times, serif;
+    color:#292929;
     font-weight: 400;
     line-height: 1.5rem;
     font-size: 1.5rem;
@@ -267,11 +276,11 @@ figure.quote figcaption p {
 footer {
     padding: 1.5rem 0 1.5rem 0;
     margin-top: 2rem;
-    border-top: 1px solid #101010;
+    border-top: 1px solid #292929;
 }
 
 header {
-    border-bottom: 2px solid #101010;
+    border-bottom: 2px solid #292929;
     padding: 1.5rem 0;
 }
 
