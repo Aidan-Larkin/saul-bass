@@ -22,7 +22,7 @@
     margin-right: auto;
     width: 680px;
     background-size: cover;
-  }
+}
 
 
 
@@ -131,13 +131,13 @@ h6 {
     font-family: "Mina", Georgia, 'Times New Roman', Times, serif;
     Line-height: 1.1;
     font-weight: 700;
-    color:#292929;
+    color: #292929;
 }
 
 /*specific styles*/
 h1 {
     font-family: "Vampiro One", Arial, Helvetica, sans-serif;
-    color:#292929;
+    color: #292929;
     font-size: 120px;
     margin-bottom: 2rem;
     font-weight: 900;
@@ -146,21 +146,21 @@ h1 {
 
 h2 {
     font-family: "Mina", Georgia, 'Times New Roman', Times, serif;
-    color:#292929;
+    color: #292929;
     font-size: 72px;
     margin-bottom: 0.5rem;
     padding: 5px;
 }
 
 h3 {
-    font-family: "Vampiro One", Georgia, 'Times New Roman', Times, serif;
-    color:#292929;
+    font-family: "Mina", Georgia, 'Times New Roman', Times, serif;
+    color: #292929;
     font-size: 2rem;
     margin-bottom: 0.5rem;
 }
 
 h4 {
-    color:#292929;
+    color: #292929;
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
 }
@@ -168,7 +168,7 @@ h4 {
 /*Paragraphs*/
 p {
     font-family: "Mina", Arial, Helvetica, sans-serif;
-    color:#292929;
+    color: #292929;
     font-weight: 400;
     line-height: 1.5rem;
     font-size: 1.125rem;
@@ -182,7 +182,7 @@ p {
 /*large Paragraphs*/
 p.large {
     font-family: "Mina", Georgia, 'Times New Roman', Times, serif;
-    color:#292929;
+    color: #292929;
     font-weight: 400;
     line-height: 1.5rem;
     font-size: 1.5rem;
