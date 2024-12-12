@@ -288,6 +288,7 @@ figure.quote figcaption p {
 }
 
 footer {
+    display: block;
     padding: 1.5rem 0 1.5rem 0;
     margin-top: 2rem;
     border-top: 1px solid #292929;
@@ -376,3 +377,6 @@ header p.logo {
         margin-bottom: 2rem;
     }
 }
+.element {
+    vertical-align: bottom;
+  }
